@@ -43,15 +43,18 @@ dataset = project.version(2).download("yolov5")</div>
 <div>out = yolo_nas_s.predict("office.jpg")</div>
 <div>out.save("office_result-yolo_nas_s.jpg")</div>
 <div>yolo_nas_s.predict("office.jpg").show()</div>
+
 ![off](https://github.com/AvantiBuche/Yolo_V5_V8_NAS/blob/0d3ec993a6c8855fe8d564d07e540c16a48eb0f9/off.png)
 
 
 <div>➢ yolo_nas = super_gradients.training.models.get("yolo_nas_l", pretrained_weights="coco")</div>
 <div>yolo_nas.predict("office.jpg").show()</div>
 <div>➢ yolo_nas.predict("market.jpg").show()</div>
+
 ![mar](https://github.com/AvantiBuche/Yolo_V5_V8_NAS/blob/0d3ec993a6c8855fe8d564d07e540c16a48eb0f9/mar.png)
 
 
 <div>➢ yolo_nas.predict("traffic.jpg").show()</div>
+
 ![tra](https://github.com/AvantiBuche/Yolo_V5_V8_NAS/blob/0d3ec993a6c8855fe8d564d07e540c16a48eb0f9/tra.png)
 
