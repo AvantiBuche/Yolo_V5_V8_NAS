@@ -43,12 +43,15 @@ dataset = project.version(2).download("yolov5")</div>
 <div>out = yolo_nas_s.predict("office.jpg")</div>
 <div>out.save("office_result-yolo_nas_s.jpg")</div>
 <div>yolo_nas_s.predict("office.jpg").show()</div>
-![image](https://github.com/AvantiBuche/Yolo_V5_V8_NAS/assets/127451991/29789186-f19b-4849-877c-f568232c0d25)
+![off](https://github.com/AvantiBuche/Yolo_V5_V8_NAS/blob/0d3ec993a6c8855fe8d564d07e540c16a48eb0f9/off.png)
+
 
 <div>➢ yolo_nas = super_gradients.training.models.get("yolo_nas_l", pretrained_weights="coco")</div>
 <div>yolo_nas.predict("office.jpg").show()</div>
 <div>➢ yolo_nas.predict("market.jpg").show()</div>
-![image](https://github.com/AvantiBuche/Yolo_V5_V8_NAS/assets/127451991/ae8bf29e-c0ed-481e-baf8-1c51075582b8)
+![mar](https://github.com/AvantiBuche/Yolo_V5_V8_NAS/blob/0d3ec993a6c8855fe8d564d07e540c16a48eb0f9/mar.png)
+
 
 <div>➢ yolo_nas.predict("traffic.jpg").show()</div>
-![image](https://github.com/AvantiBuche/Yolo_V5_V8_NAS/assets/127451991/7f6b6795-2476-4ea6-b073-fa933a81e3ef)
+![tra](https://github.com/AvantiBuche/Yolo_V5_V8_NAS/blob/0d3ec993a6c8855fe8d564d07e540c16a48eb0f9/tra.png)
+
